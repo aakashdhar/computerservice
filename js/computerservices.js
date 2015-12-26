@@ -12,6 +12,13 @@ $(function() {
 	$('body').scrollspy({
 	    target: '.navbar-fixed-top'
 	})
+
+	$("#owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
 	// maps
 	var map = new GMaps({
 	  div: '.map',
