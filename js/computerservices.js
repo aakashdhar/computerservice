@@ -16,7 +16,8 @@ $(function() {
 	var map = new GMaps({
 	  div: '.map',
 	  lat: 12.876543,
-	  lng: 77.604542
+	  lng: 77.604542,
+	  zoom:16
 	});
 
 	map.addMarker({
